@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: aqua;
+}
+
+main {
+    background-color: green;
+    gap: 2rem;
+    height: 50px;
+    flex-grow: 1;
+}
