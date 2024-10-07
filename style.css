@@ -23,3 +23,10 @@ main {
     height: 50px;
     flex-grow: 1;
 }
+
+footer {
+    padding: 1rem;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
